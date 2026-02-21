@@ -1,0 +1,19 @@
+{
+  "id": "musicassistant-webapp",
+  "isAudioSource": false,
+  "isWebApp": true,
+  "requires": [],
+  "label": "Music Assistant Controller",
+  "version": "0.1.0",
+  "version_code": "0.1",
+  "compatible_server": 10.4,
+  "compatible_client": 10.4,
+  "description": "DeskThing controller for Music Assistant players, queue, and volume.",
+  "author": "nWo122383",
+  "platforms": ["windows", "linux", "macos"],
+  "homepage": "https://github.com/nwo122383/MusicAssistant",
+  "repository": "https://github.com/nwo122383/MusicAssistant",
+  "tags": ["webapp", "music", "music-assistant"],
+  "requiredVersions": { "server": ">=0.11.0", "client": ">=0.11.0" },
+  "updateUrl": "https://raw.githubusercontent.com/nwo122383/MusicAssistant/main/dist/latest.json"
+}

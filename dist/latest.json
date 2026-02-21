@@ -1,0 +1,43 @@
+{
+  "meta_version": "0.11.8",
+  "meta_type": "app",
+  "repository": "https://github.com/nwo122383/MusicAssistant",
+  "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTYgMjU2IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9Ik11c2ljIEFzc2lzdGFudCI+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnIiB4MT0iMCIgeDI9IjEiIHkxPSIwIiB5Mj0iMSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzBmMTcyYSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMxZDRlZDgiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImFjY2VudCIgeDE9IjAiIHgyPSIxIiB5MT0iMCIgeTI9IjAiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiMyMmQzZWUiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMzRkMzk5Ii8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCB3aWR0aD0iMjU2IiBoZWlnaHQ9IjI1NiIgcng9IjQ4IiBmaWxsPSJ1cmwoI2JnKSIvPgogIDxwYXRoIGQ9Ik01NiAxNzZWODBoMjRsNDggNTIgNDgtNTJoMjR2OTZoLTI0di01OWwtNDggNTAtNDgtNTB2NTlINTZ6IiBmaWxsPSJ1cmwoI2FjY2VudCkiLz4KPC9zdmc+Cg==",
+  "size": 268006,
+  "appManifest": {
+    "id": "musicassistant-webapp",
+    "isAudioSource": false,
+    "isWebApp": true,
+    "requires": [],
+    "label": "Music Assistant Controller",
+    "version": "0.1.0",
+    "version_code": "0.1",
+    "compatible_server": 10.4,
+    "compatible_client": 10.4,
+    "description": "DeskThing controller for Music Assistant players, queue, and volume.",
+    "author": "nWo122383",
+    "platforms": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "homepage": "https://github.com/nwo122383/MusicAssistant",
+    "repository": "https://github.com/nwo122383/MusicAssistant",
+    "tags": [
+      "webapp",
+      "music",
+      "music-assistant"
+    ],
+    "requiredVersions": {
+      "server": ">=0.11.0",
+      "client": ">=0.11.0"
+    },
+    "updateUrl": "https://raw.githubusercontent.com/nwo122383/MusicAssistant/main/dist/latest.json"
+  },
+  "updateUrl": "https://github.com/nwo122383/MusicAssistant/releases/latest/download/musicassistant-webapp-v0.1.0.zip",
+  "hash": "bbcaa6fc46582f71e9f2c14fb189a92d26e9f2acc2077b157551ab6a1f68eb23302c6c702f35562184b91d057e6bb6f541f1807a3ac01145f58ef75a98136c13",
+  "hashAlgorithm": "sha512",
+  "updatedAt": 1771683925302,
+  "createdAt": 1771683925302,
+  "downloads": 0
+}

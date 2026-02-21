@@ -1,0 +1,40 @@
+{
+  "name": "musicassistant-webapp",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "npx @deskthing/cli dev --vite",
+    "dev:vite": "vite",
+    "dev:wrapper": "npx @deskthing/cli dev",
+    "build": "npx @deskthing/cli package",
+    "build-server": "esbuild server/index.ts --bundle --platform=node --target=node18 --format=cjs --outfile=server/index.js",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@deskthing/client": "^0.11.0",
+    "@deskthing/server": "^0.11.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@deskthing/cli": "^0.11.15",
+    "@deskthing/types": "^0.11.18",
+    "@eslint/js": "^9.9.0",
+    "@rollup/rollup-linux-x64-gnu": "^4.58.0",
+    "@types/node": "^22.10.7",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "caniuse-lite": "^1.0.30001770",
+    "eslint": "^9.9.0",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.9",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^8.0.1",
+    "vite": "^5.4.21"
+  }
+}
